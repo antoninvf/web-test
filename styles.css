@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.above {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    z-index: 1;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abovecube {
+    z-index: 5;
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    background-color: red;
+}
+
+.belowcube {
+    z-index: 5;
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    background-color: blue;
+}
+
+.pomoc {
+    display: flex;
+    justify-content: space-between;
+}
